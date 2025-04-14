@@ -1,4 +1,4 @@
-# 🔐 JWT-Crack
+# 🔐 JWT-Cracken
 
 A script for working with JWT tokens: decoding, encoding, and cracking simple secrets. It supports basic automatic brute-force checking of token vulnerability using a wordlist.
 
@@ -48,12 +48,6 @@ py .\jwt-crack.py -d -c -e -p "{'sub': '1234567890', 'name': 'Admin', 'iat': 151
 ```
 ```bash
 python3 .\jwt-crack.py -d -c -e -p "{'sub': '1234567890', 'name': 'Admin', 'iat': 1516239022}" --token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.AaFNTGz_5oj27Lvr3w6SrCb1rQ9_kxWIrXlSS_hwKzc
-```
-
-If using PowerShell, it’s better to pass the JSON with escaped quotes:
-
-```powershell
-py .\jwt-crack.py -d -c -e -p "{\"sub\": \"1234567890\", \"name\": \"Admin\", \"iat\": 1516239022}" --token eyJhbGciOi...
 ```
 
 ## 📄 Wordlist
