@@ -62,7 +62,8 @@ class CrackHandler:
         self.signature = None
         self.secret = self.args.key
 
-        self.decode_token()
+        if self.token:
+            self.decode_token()
         if self.args.crack:
             self.crack_token()
         if self.args.encode:
