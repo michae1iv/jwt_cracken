@@ -13,6 +13,10 @@ A script for working with JWT tokens: decoding, encoding, and cracking simple se
 ```bash
 py .\jwt-crack.py [options]
 ```
+or:
+```bash
+python3 .\jwt-crack.py [options]
+```
 
 ### 🔹 Main Options:
 
