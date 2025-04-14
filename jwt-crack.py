@@ -120,7 +120,8 @@ class CrackHandler:
             if algorithm is None:
                 encoded_data = jwt.encode(payload=payload, key=secret, headers=header)
             else:
-                encoded_data = jwt.encode(payload=self.args.payload, key=self.secret, algorithm=algorithm)
+                encoded_data = jwt.encode(payload=payload, key=None, algorithm=algorithm) \
+                    if algorithm == "none" else jwt.encode(payload=payload, key=secret, algorithm=algorithm)
             return encoded_data
         except Exception as e:
             print(f'Payload, header or algorithm incorrect: {e}')
