@@ -11,11 +11,11 @@ A script for working with JWT tokens: decoding, encoding, and cracking simple se
 ## 🚀 Usage
 
 ```bash
-py jwt-crack.py [options]
+py jwt-cracken.py [options]
 ```
 or:
 ```bash
-python3 jwt-crack.py [options]
+python3 jwt-cracken.py [options]
 ```
 
 ### 🔹 Main Options:
@@ -44,10 +44,10 @@ python3 jwt-crack.py [options]
 Cracking a token, displaying its contents, and providing a new payload:
 
 ```powershell
-py jwt-crack.py -d -c -e -p "{'sub': '1234567890', 'name': 'Admin', 'iat': 1516239022}" --token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.AaFNTGz_5oj27Lvr3w6SrCb1rQ9_kxWIrXlSS_hwKzc
+py jwt-cracken.py -d -c -e -p "{'sub': '1234567890', 'name': 'Admin', 'iat': 1516239022}" --token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.AaFNTGz_5oj27Lvr3w6SrCb1rQ9_kxWIrXlSS_hwKzc
 ```
 ```bash
-python3 jwt-crack.py -d -c -e -p "{'sub': '1234567890', 'name': 'Admin', 'iat': 1516239022}" --token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.AaFNTGz_5oj27Lvr3w6SrCb1rQ9_kxWIrXlSS_hwKzc
+python3 jwt-cracken.py -d -c -e -p "{'sub': '1234567890', 'name': 'Admin', 'iat': 1516239022}" --token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.AaFNTGz_5oj27Lvr3w6SrCb1rQ9_kxWIrXlSS_hwKzc
 ```
 
 ## 📄 Wordlist
